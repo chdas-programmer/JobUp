@@ -39,4 +39,4 @@ jobs:
           sudo docker pull chanchaldas/ci-cd-1:latest 
           sudo docker stop web-app || true
           sudo docker rm web-app || true
-          sudo docker run -d --name web-app -p 3005:3000 chanchaldas/ci-cd-1:latest
+          sudo docker run -d --name web-app -p 5173:5173 chanchaldas/ci-cd-1:latest
